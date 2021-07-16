@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include "../GraphvizDOT.cpp"
+#include "GraphvizDOT.cpp"
 
 using namespace std;
 

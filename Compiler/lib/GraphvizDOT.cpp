@@ -83,7 +83,7 @@ namespace Compiler {
         }
         
         void Node(string a, string b, string label) {
-            Add("\"" + a + "\"" + NodeLink() + "\"" + b + "\" [" + Attribute("label", label) + "\]\n");
+            Add("\"" + a + "\"" + NodeLink() + "\"" + b + "\" [" + Attribute("label", label) + "]\n");
         }
 
         string NodeLink() {
